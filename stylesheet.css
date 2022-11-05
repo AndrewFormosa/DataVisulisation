@@ -1,0 +1,46 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, red,white, blue );
+
+}
+ .tooltip{
+    font-size:0.8rem;
+    text-align: center;
+    padding:5px;
+    margin:5px;
+    background: rgb(254, 89, 89);
+    border-radius: 5px;
+ }
+
+p{
+    color: rgb(60, 60, 60);
+}
+
+.my-chart{
+    margin:0;
+    background:linear-gradient(rgb(255, 255, 255),rgb(92, 92, 92));
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px;
+}
+
+#title{
+    font-size: 3rem;
+    font-weight:bolder;
+    text-align: center;
+    color:rgb(0, 0, 133);
+    
+}
+
+.bar{
+    fill:navy;
+    fill-opacity: 0.5;
+}
+
+.bar:hover{
+    fill:rgb(255, 247, 0);
+}
